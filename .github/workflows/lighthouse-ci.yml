@@ -1,5 +1,10 @@
 name: Shopify Lighthouse CI
 on: [push]
+
+permissions:
+  checks: write
+  contents: read
+
 jobs:
   lhci:
     name: Lighthouse
@@ -14,12 +19,13 @@ jobs:
         password: ${{ secrets.SHOP_PASSWORD }}
         collection_handle: all
         lhci_github_app_token: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
   theme-check:
-      name: Theme Check
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-      - name: Theme Check
-        uses: shopify/theme-check-action@v2
-        with:
-          token: ${{ github.token }}
+    name: Theme Check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Theme Check
+      uses: shopify/theme-check-action@v2
+      with:
+        token: ${{ github.token }}
