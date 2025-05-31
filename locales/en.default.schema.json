@@ -1,0 +1,88 @@
+{
+  "settings_schema": {
+    "global": {
+      "settings": {}
+    }
+  },
+  "sections": {
+    "all": {},
+    "footer": {
+      "name": "Footer"
+    },
+    "header": {
+      "name": "Header"
+    },
+    "image-banner": {
+      "name": "Image banner",
+      "presets": {
+        "name": "Image banner"
+      }
+    },
+    "main-article": {
+      "name": "Blog post"
+    },
+    "main-addresses": {
+      "name": "Addresses"
+    },
+    "main-activate-account": {
+      "name": "Account activation"
+    },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-blog": {
+      "name": "Blog posts"
+    },
+    "main-cart-items": {
+      "name": "Items"
+    },
+    "main-collection-banner": {
+      "name": "Collection banner"
+    },
+    "main-collection-product-grid": {
+      "name": "Product grid"
+    },
+    "main-list-collections": {
+      "name": "Collections list page"
+    },
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Order"
+    },
+    "main-page": {
+      "name": "Page"
+    },
+    "main-password-footer": {
+      "name": "Password footer"
+    },
+    "main-password-header": {
+      "name": "Password header"
+    },
+    "main-product": {
+      "name": "Product information"
+    },
+    "main-register": {
+      "name": "Registration"
+    },
+    "main-reset-password": {
+      "name": "Password reset"
+    },
+    "main-search": {
+      "name": "Search results"
+    },
+    "email-signup-banner": {
+      "name": "Email signup banner",
+      "presets": {
+        "name": "Email signup banner"
+      }
+    },
+    "page": {
+      "name": "Page",
+      "presets": {
+        "name": "Page"
+      }
+    }
+  }
+}
